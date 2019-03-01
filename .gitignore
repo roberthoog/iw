@@ -2,7 +2,9 @@
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
-
+/wp-admin/*
+wp-settings.php
+wp-config.php
 # Folder config file
 Desktop.ini
 

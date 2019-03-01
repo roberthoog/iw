@@ -1,0 +1,28 @@
+{
+  "name": "iw",
+  "version": "1.0.0",
+  "description": "Complete web siet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberthoog/iw.git"
+  },
+  "keywords": [
+    "pagebuilder",
+    "\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[Cstylish",
+    "\u001b[2~creative"
+  ],
+  "author": "Robert Höög",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberthoog/iw/issues"
+  },
+  "homepage": "https://github.com/roberthoog/iw#readme",
+  "devDependencies": {
+    "boostrap": "^2.0.0",
+    "gulp": "^4.0.0"
+  }
+}
