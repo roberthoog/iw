@@ -1,0 +1,9 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: pink !important;
+  color: #333; }
+
+a {
+  color: pink;
+  font-weight: bold;
+  font-size: 22px; }

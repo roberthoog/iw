@@ -1,28 +1,39 @@
 {
-  "name": "iw",
+  "name": "gulp-sass-wordpress",
   "version": "1.0.0",
-  "description": "Complete web siet",
-  "main": "index.js",
+  "description": "Gulp compile SASS in WordPress",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/gulp/bin/gulp.js watch",
+    "start_prod": "node ./node_modules/gulp/bin/gulp.js --type=prod watch",
+    "build": "node ./node_modules/gulp/bin/gulp.js sass",
+    "build_prod": "node ./node_modules/gulp/bin/gulp.js --type=prod sass"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roberthoog/iw.git"
   },
-  "keywords": [
-    "pagebuilder",
-    "\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[Cstylish",
-    "\u001b[2~creative"
-  ],
-  "author": "Robert Höög",
-  "license": "ISC",
+  "keywords": [],
+  "author": "Oleg Bilyk",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/roberthoog/iw/issues"
+    "url": "https://github.com/olegbilyk/gulp-sass-wordpress/issues"
   },
-  "homepage": "https://github.com/roberthoog/iw#readme",
+  "homepage": "https://github.com/olegbilyk/gulp-sass-wordpress#readme",
   "devDependencies": {
-    "boostrap": "^2.0.0",
-    "gulp": "^4.0.0"
+    "autoprefixer": "^9.4.10",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-util": "^3.0.8"
   }
 }
