@@ -1,0 +1,30 @@
+/* 	My three fonts:
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Passion One', cursive;
+	font-family: 'Cairo', cursive;
+	*/
+
+
+h1 {
+	font-size: 3.3em;
+	color: $color-orange;
+	font-weight: 700
+}
+h2 {
+	@extend h1;
+	font-size: 2.8em;
+	font-weight: 300;
+	color: $color-dark-blue;
+}
+
+h3 {
+	@extend h1;
+	font-size: 2.2em;
+}
+
+p {
+
+	font: 17/22 Cairo, 'sans-serif';
+}
+
